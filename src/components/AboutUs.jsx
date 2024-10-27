@@ -11,7 +11,7 @@ const AboutUs = () => {
                     <div className='sm:w-[35%] md:w-[25%] '>
                         <ul className='sm:items-center text-[10px] lg:text-[14px] flex flex-col gap-2'>
                             <li>
-                                <a href="">Search</a>
+                                <a href="">Searchs</a>
                             </li>
                             <li>
                                 <a href="">Privacy Policy</a>
