@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+img{
+  display: grid;
+  place-content: center;
+  height:100px;
+  width: 100px;
+}
+
+body::-webkit-scrollbar{
+  display: none;
+}
+.box::-webkit-scrollbar{
+  display: none;
+  scrollbar-width: none;
+  scroll-behavior: none;
+}
