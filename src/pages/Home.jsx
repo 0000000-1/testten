@@ -1,5 +1,4 @@
 import React from 'react'
-import AboutUs from './AboutUs'
 import Navbar from '../components/Navbar'
 import OurProducts from '../sections/OurProducts'
 import Footer from '../components/Footer'
@@ -7,11 +6,14 @@ import Vision from '../sections/Vision'
 import Customertestimonial from '../sections/Customertestimonial'
 import Contactus from '../sections/Contactus'
 import Herosection from '../sections/Herosection'
+import AboutUs from '../sections/AboutUs'
 
 
 const Home = () => {
   return (
     <>
+    <section>
+
       <Navbar />
       <Herosection />
       <AboutUs />
@@ -19,6 +21,7 @@ const Home = () => {
       <Vision />
       <Customertestimonial />
       <Footer />
+    </section>
     </>
   )
 }

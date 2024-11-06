@@ -4,7 +4,6 @@ import Contactus from '../sections/Contactus'
 const Footer = () => {
   return (
     <div className='bg-orange-200 p-10'>
-      {/* <h1>Footer</h1> */}
       <div className='flex justify-center sm:items-center sm:flex-col md:flex-row w-full gap-6 lg:gap-0' >
         <div className=''>
         <Contactus />

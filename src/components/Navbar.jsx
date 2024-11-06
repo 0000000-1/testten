@@ -1,5 +1,5 @@
 import React from 'react'
-// import { Link,to } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 
 const Navbar = () => {
@@ -10,11 +10,11 @@ const Navbar = () => {
                     <span>III</span>
                     <div><a href="/">Home</a></div>
                 </div>
-                <h1> Nourish Naturals</h1>
+                <a href="/"> Nourish Naturals</a>
                 <div className='flex justify-between md:justify-evenly'>
                     <ul className='sm:hidden md:flex flex gap-6 items-center md:pl-4 md:pr-4'>
                         <li><a href="/">HOME</a></li>
-                        <li className='shop'><a href="/products">PRODUCTS</a>
+                        <li className='shop'><Link to="/products">PRODUCTS</Link>
                         </li>
                     </ul>
                 </div>
