@@ -13,7 +13,7 @@ const Herosection = () => {
                     <p className='text-gray-100 m-4'>
                         Our food products are grown in the hilly areas of Uttarakhand, prepared using natural and traditional methods. Everything is natural, no chemicals or pesticides are used, and only natural manure is used. Due to the Himalayan climate our pulses and every product is different from other region products in taste and quality.
                     </p>
-                <button className='py-4 px-5 sm:py-2 sm:px-3 font-[700] text-sm bg-green-900'>SHOP NOW</button>
+                <button className='py-4 px-5 sm:py-2 sm:px-3 font-[700] text-sm text-white bg-green-900'>SHOP NOW</button>
                 </div>
             </div>
         </div>

@@ -16,21 +16,12 @@ const Products = () => {
     <> 
       <Navbar />
       <div className='flex justify-center flex-col'>
-        <h1 className='text-center'>Products</h1>
+        <h1 className='text-center text-3xl'>Products</h1>
         <div className='box flex flex-wrap '>
           <HandmadeCraft data={productspan}/>
         </div>
         <div>
           <SeasonalFruits />
-        </div>
-        <div className='box flex flex-wrap '>
-          <HandmadeCraft data={productspan}/>
-        </div>
-        <div className='box flex flex-wrap '>
-          <HandmadeCraft data={productspan}/>
-        </div>
-        <div className='box flex flex-wrap '>
-          <HandmadeCraft data={productspan}/>
         </div>
       </div>
         <Footer />
