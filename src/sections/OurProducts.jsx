@@ -40,7 +40,7 @@ const OurProducts = () => {
       </div>
       <div className='img2 relative h-full w-full overflow-hidden'>
       <Link to='/products'>
-        <img src="./src/assets/Product_Image_and_Ref/Pahadi Malta.jpg" className='img21 h-full w-full object-contain ' alt="" />
+        <img src="./src/assets/Product_Image_and_Ref/Pahadi_Malta.jpg" className='img21 h-full w-full object-contain ' alt="" />
         <div className='before:absolute flex flex-col justify-center items-center h-full w-full
         before:h-full before:w-full before:opacity-[30%] before:hover:duration-1000 before:hover:opacity-60 before:bg-black before:content before:object-cover 
         absolute top-0'>

@@ -5,7 +5,7 @@ const Herosection = () => {
         <div className='flex gap-4 flex-col flex flex-col h-full items-center'>
             <div className=' h-screen w-full '>
                 <div className='absolute z-[-2] h-full w-full '>
-                    <video src="./src/assets/Video_and_Ref/istockphoto-2152876030-640_adpp_is.mp4" className='h-screen w-full object-cover' data-type='mp4' autoPlay loop muted playsInline></video>
+                    <video src="./src/assets/Video_and_Ref/istockphoto-2152876030-640.mp4" className='h-screen w-full object-cover' data-type='mp4' autoPlay loop muted playsInline></video>
                 </div>
                 <div className='h-full flex-col before:absolute before:bg-black before:z-[-2] before:h-full before:w-full before:opacity-[.5] w-full flex justify-center items-center text-center'>
                     <h1 className='text-gray-100 text-5xl font-[400] sm:text-4xl lg:text-6xl '>Nourish Naturals</h1>
