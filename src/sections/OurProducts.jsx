@@ -1,6 +1,9 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-
+import image1 from "../assets/Product_Image_and_Ref/Handmade_craft_1.jpeg"
+import image2 from "../assets/Product_Image_and_Ref/Handmade_craft_2.jpeg"
+import image3 from "../assets/Product_Image_and_Ref/Handmade_craft_3.jpeg"
+import image4 from "../assets/Product_Image_and_Ref/Handmade_craft_4.jpeg"
 
 const OurProducts = () => {
   return (    
@@ -10,7 +13,7 @@ const OurProducts = () => {
 
     <div className='img2 relative h-full w-full  overflow-hidden'>
         <Link to='/products'>
-        <img src="./src/assets/Product_Image_and_Ref/Handmade_craft_2.jpeg" className='img21 h-full w-full object-contain' alt="" />
+        <img src={image1} className='img21 h-full w-full object-contain' alt="" />
         <div className='before:absolute flex flex-col justify-center items-center h-full w-full
         before:h-full before:w-full before:opacity-[30%] before:hover:duration-1000 before:hover:opacity-60 before:bg-black before:content before:object-cover 
         absolute top-0'>
@@ -20,7 +23,7 @@ const OurProducts = () => {
       </div>
       <div className='img2 relative h-full w-full overflow-hidden'>
         <Link to='/products'>
-        <img src="./src/assets/Product_Image_and_Ref/Handmade_craft_3.jpeg" className='img21 h-full w-full object-contain ' alt="" />
+        <img src={image2} className='img21 h-full w-full object-contain ' alt="" />
         <div className='before:absolute flex flex-col justify-center items-center h-full w-full
         before:h-full before:w-full before:opacity-[30%] before:hover:duration-1000 before:hover:opacity-60 before:bg-black before:content before:object-cover 
         absolute top-0'>
@@ -30,7 +33,7 @@ const OurProducts = () => {
       </div>
       <div className='img2 relative h-full w-full overflow-hidden'>
       <Link to='/products'>
-        <img src="./src/assets/Product_Image_and_Ref/Mandua.webp" className='img21 h-full w-full object-cover ' alt="" />
+        <img src={image3} className='img21 h-full w-full object-cover ' alt="" />
         <div className='before:absolute flex flex-col justify-center items-center h-full w-full
         before:h-full before:w-full before:opacity-[30%] before:hover:duration-1000 before:hover:opacity-60 before:bg-black before:content before:object-cover 
         absolute top-0'>
@@ -40,7 +43,7 @@ const OurProducts = () => {
       </div>
       <div className='img2 relative h-full w-full overflow-hidden'>
       <Link to='/products'>
-        <img src="./src/assets/Product_Image_and_Ref/Pahadi_Malta.jpg" className='img21 h-full w-full object-contain ' alt="" />
+        <img src={image4} className='img21 h-full w-full object-contain ' alt="" />
         <div className='before:absolute flex flex-col justify-center items-center h-full w-full
         before:h-full before:w-full before:opacity-[30%] before:hover:duration-1000 before:hover:opacity-60 before:bg-black before:content before:object-cover 
         absolute top-0'>
