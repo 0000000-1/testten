@@ -11,6 +11,7 @@ const OurProducts = () => {
       <h2 className="text-4xl font-bold text-center mb-8 text-gray-700">Our Products</h2>
 
       <div className="flex flex-wrap justify-center -mx-4">
+
         <div className="w-full md:w-1/3 xl:w-1/3 px-4 mb-8">
           <div className="bg-white shadow-md">
             <img
@@ -23,10 +24,13 @@ const OurProducts = () => {
               Description of Product 1.
             </p>
             <button className="bg-green-700 hover:bg-green-900 text-white font-bold py-2 px-4 ml-4 mb-4">
+              <Link to='/products'>
               Buy Now
+              </Link>
             </button>
           </div>
         </div>
+
         <div className="w-full md:w-1/3 xl:w-1/3 px-4 mb-8">
           <div className="bg-white shadow-md">
             <img
@@ -39,10 +43,13 @@ const OurProducts = () => {
               Description of Product 2.
             </p>
             <button className="bg-green-700 hover:bg-green-900 text-white font-bold py-2 px-4 ml-4 mb-4">
+              <Link to='/products'>
               Buy Now
+              </Link>
             </button>
           </div>
         </div>
+
         <div className="w-full md:w-1/3 xl:w-1/3 px-4 mb-8">
           <div className="bg-white shadow-md">
             <img
@@ -55,7 +62,9 @@ const OurProducts = () => {
               Description of Product 3.
             </p>
             <button className="bg-green-700 hover:bg-green-900 text-white font-bold py-2 px-4 ml-4 mb-4">
+              <Link to='/products'>
               Buy Now
+              </Link>
             </button>
           </div>
         </div>
