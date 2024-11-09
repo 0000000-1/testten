@@ -14,14 +14,27 @@ const HandmadeCraft = (props) => {
                     {prodata[0].items.map((item) => (
                         <>
                             <Link to={`/products/${item.slug}`}>
-                                <div className='img2 relative h-[250px] w-[250px] overflow-hidden'>
-                                    <img src={item.image} className='img21 h-full w-full object-contain' alt="more" />
+                                
+                            <div className="w-full px-4 mb-8">
+                                    <div className="bg-white shadow-md">
+                                        <img
+                                            src={item.image}
+                                            alt="Product Image"
+                                            className="w-full h-64 object-cover mb-4 rounded-t-lg"
+                                        />
+                                        <h3 className="text-2xl font-bold mb-2 px-4 uppercase">{item.name}</h3>
+                                        <p className="text-lg font-normal text-gray-600 mb-4 px-4">
+                                            {item.detail}
+                                        </p>
+                                        <p className="text-lg font-normal text-gray-600 mb-4 px-4">
+                                            {item.price}
+                                        </p>
+                                        <button className="bg-indigo-500 hover:bg-indigo-600 text-white font-bold py-2 px-4 ml-4 mb-4">
+                                            Buy Now
+                                        </button>
+                                    </div>
                                 </div>
-                                <div className='flex flex-col gap-2 py-4'>
-                                    <h2>{item.name}</h2>
-                                    <p className='text-[.8rem]'>{item.detail}</p>
-                                    <p>{item.price}</p>
-                                </div>
+
                             </Link>
                         </>
                     ))}

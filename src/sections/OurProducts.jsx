@@ -6,54 +6,63 @@ import image3 from "../assets/Product_Image_and_Ref/Handmade_craft_3.jpeg"
 import image4 from "../assets/Product_Image_and_Ref/Handmade_craft_4.jpeg"
 
 const OurProducts = () => {
-  return (    
-  <div className=' flex justify-center items-center flex-col w-full lg:p-8 p-4'>
-    <h1 className='my-6 text-[4rem] m-4 font-[500] '>Our Products</h1>
-    <div className='grid h-full md:grid-cols-2 lg:grid-cols-4 w-full gap-4'>
+  return (
+    <div className="container mx-auto p-8 pt-16">
+      <h2 className="text-4xl font-bold text-center mb-8 text-gray-700">Our Products</h2>
 
-    <div className='img2 relative h-full w-full  overflow-hidden'>
-        <Link to='/products'>
-        <img src={image1} className='img21 h-full w-full object-contain' alt="" />
-        <div className='before:absolute flex flex-col justify-center items-center h-full w-full
-        before:h-full before:w-full before:opacity-[30%] before:hover:duration-1000 before:hover:opacity-60 before:bg-black before:content before:object-cover 
-        absolute top-0'>
-          <h1 className='text-[1rem] text-white relative z-2'>HANDMADE CRAFT</h1>
+      <div className="flex flex-wrap justify-center -mx-4">
+        <div className="w-full md:w-1/3 xl:w-1/3 px-4 mb-8">
+          <div className="bg-white shadow-md">
+            <img
+              src={image1}
+              alt="Product Image"
+              className="w-full h-64 object-cover mb-4 rounded-t-lg"
+            />
+            <h3 className="text-2xl font-bold mb-2 px-4">Product 1</h3>
+            <p className="text-lg font-normal text-gray-600 mb-4 px-4">
+              Description of Product 1.
+            </p>
+            <button className="bg-green-700 hover:bg-green-900 text-white font-bold py-2 px-4 ml-4 mb-4">
+              Buy Now
+            </button>
+          </div>
         </div>
-        </Link>
-      </div>
-      <div className='img2 relative h-full w-full overflow-hidden'>
-        <Link to='/products'>
-        <img src={image2} className='img21 h-full w-full object-contain ' alt="" />
-        <div className='before:absolute flex flex-col justify-center items-center h-full w-full
-        before:h-full before:w-full before:opacity-[30%] before:hover:duration-1000 before:hover:opacity-60 before:bg-black before:content before:object-cover 
-        absolute top-0'>
-          <h1 className='text-[1rem] text-white relative z-2'>PULSE (PAHADI DAAL)</h1>
+        <div className="w-full md:w-1/3 xl:w-1/3 px-4 mb-8">
+          <div className="bg-white shadow-md">
+            <img
+              src={image2}
+              alt="Product Image"
+              className="w-full h-64 object-cover mb-4 rounded-t-lg"
+            />
+            <h3 className="text-2xl font-bold mb-2 px-4">Product 2</h3>
+            <p className="text-lg font-normal text-gray-600 mb-4 px-4">
+              Description of Product 2.
+            </p>
+            <button className="bg-green-700 hover:bg-green-900 text-white font-bold py-2 px-4 ml-4 mb-4">
+              Buy Now
+            </button>
+          </div>
         </div>
-          </Link>
-      </div>
-      <div className='img2 relative h-full w-full overflow-hidden'>
-      <Link to='/products'>
-        <img src={image3} className='img21 h-full w-full object-cover ' alt="" />
-        <div className='before:absolute flex flex-col justify-center items-center h-full w-full
-        before:h-full before:w-full before:opacity-[30%] before:hover:duration-1000 before:hover:opacity-60 before:bg-black before:content before:object-cover 
-        absolute top-0'>
-          <h1 className='text-[1rem] text-white relative z-2'>PAHADI MILLETE</h1>
+        <div className="w-full md:w-1/3 xl:w-1/3 px-4 mb-8">
+          <div className="bg-white shadow-md">
+            <img
+              src={image3}
+              alt="Product Image"
+              className="w-full h-64 object-cover mb-4 rounded-t-lg"
+            />
+            <h3 className="text-2xl font-bold mb-2 px-4">Product 3</h3>
+            <p className="text-lg font-normal text-gray-600 mb-4 px-4">
+              Description of Product 3.
+            </p>
+            <button className="bg-green-700 hover:bg-green-900 text-white font-bold py-2 px-4 ml-4 mb-4">
+              Buy Now
+            </button>
+          </div>
         </div>
-          </Link>
-      </div>
-      <div className='img2 relative h-full w-full overflow-hidden'>
-      <Link to='/products'>
-        <img src={image4} className='img21 h-full w-full object-contain ' alt="" />
-        <div className='before:absolute flex flex-col justify-center items-center h-full w-full
-        before:h-full before:w-full before:opacity-[30%] before:hover:duration-1000 before:hover:opacity-60 before:bg-black before:content before:object-cover 
-        absolute top-0'>
-          <h1 className='text-[1rem] text-white relative z-2'>SEASONAL FRUITS</h1>
-        </div>
-          </Link>
       </div>
     </div>
-  </div>
-  )
+  );
+
 }
 
 export default OurProducts

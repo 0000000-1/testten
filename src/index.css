@@ -17,3 +17,59 @@ body::-webkit-scrollbar{
   scrollbar-width: none;
   scroll-behavior: none;
 }
+
+
+
+.container {
+  @apply max-w-7xl;
+}
+
+.testimonial {
+  @apply bg-gradient-to-r from-indigo-500 to-purple-500 rounded-lg shadow-md p-8 mb-8;
+}
+
+.testimonial img {
+  @apply w-12 h-12 rounded-full mr-4 object-cover border-2 border-white;
+}
+
+.testimonial h3 {
+  @apply text-lg font-bold text-white;
+}
+
+.testimonial p {
+  @apply text-sm text-gray-200;
+}
+
+.testimonial svg {
+  @apply w-6 h-6 text-white;
+}
+
+.container {
+  @apply max-w-7xl;
+}
+
+.about-image {
+  @apply w-full h-64 object-cover mb-4;
+}
+
+.about-section {
+  @apply flex flex-wrap justify-center -mx-4;
+}
+
+.about-text {
+  @apply text-lg font-normal text-gray-600 mb-4;
+}
+
+.about-button {
+  @apply bg-indigo-500 hover:bg-indigo-700 text-white font-bold py-2 px-4 rounded;
+}
+
+.about-team {
+  @apply text-lg font-normal text-gray-600 mb-2;
+}
+
+.about-values {
+  @apply text-lg font-normal text-gray-600 mb-2;
+}
+
+
