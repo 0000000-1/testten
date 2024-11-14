@@ -2,16 +2,15 @@ import React from 'react'
 import productData from '../assets/productApi'
 import { Link } from 'react-router-dom'
 
-
-const HandmadeCraft = (props) => {
+const PahadiDal = () => {
     let prodata = productData
 
     return (
         <div className='flex flex-col w-full gap-8 '>
-            <h3 className='text-[3rem] text-center'>Handmade Craft</h3>
+            <h3 className='text-[3rem] text-center'>Pahadi Dal</h3>
             <div className='flex gap-8 justify-evenly'>
                 <div className=' grid md:grid-cols-2 lg:grid-cols-3 sm:grid-cols-1 gap-8 '>
-                    {prodata[0].items.map((item) => (
+                    {prodata[2].items.map((item) => (
                         <>
                             <Link to={`/products/${item.slug}`}>
 
@@ -46,4 +45,4 @@ const HandmadeCraft = (props) => {
     )
 }
 
-export default HandmadeCraft
+export default PahadiDal

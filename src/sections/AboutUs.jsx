@@ -4,8 +4,8 @@ import image1 from "../assets/Product_Image_and_Ref/Handmade_craft_3.jpeg"
 
 const AboutUs = () => {
   return (
-    <div className="p-4 mb-8 rounded-lg bg-gray-100">
-      <h3 className="text-4xl font-bold text-gray-700 text-center my-4">About Us</h3>
+    <div className="p-4 mb-8 rounded-lg bg-gray-100 p-8">
+      <h3 className="text-4xl font-bold text-gray-700 text-center my-4 border-b pb-6">About Us</h3>
       <div className='flex justify-center gap-6 sm:flex-wrap justify-evenly mb-4'>
         <div className='h-[400px] w-[320px]'>
           <img src={image1} className='img21 h-full w-full object-contain' alt="" />

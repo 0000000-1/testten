@@ -1,6 +1,5 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
-import image from '../assets/Product_Image_and_Ref/Pahadi_Nimbu.webp'
+import image from '../assets/Product_Image_and_Ref/Seasonal_Fruits_pahadi_Nimbu.webp'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 
@@ -28,9 +27,7 @@ const Aboutpage = () => {
                         <p className="text-lg font-normal text-gray-600 mb-4">
                             Our journey began with a simple idea: to make a difference.
                         </p>
-                        <button className="bg-indigo-500 hover:bg-indigo-600 text-white font-bold py-2 px-4 ">
-                            Learn More
-                        </button>
+                        <button className="bg-indigo-500 hover:bg-indigo-600 text-white font-bold py-2 px-4 ">Learn More</button>
                     </div>
                 </div>
 
@@ -92,7 +89,7 @@ const Aboutpage = () => {
                     </div>
                     <div className="w-full md:w-1/2 xl:w-1/2 px-4 mb-8">
                         <h3 className="text-3xl font-bold mb-4">Stay Connected</h3>
-                        <div className="flex justify-center mb-4">
+                        <div className="flex justify-start mb-4">
                             <a
                                 href="(link unavailable)"
                                 className="text-lg font-normal text-gray-600 mx-2"
@@ -134,7 +131,7 @@ const Aboutpage = () => {
                     </div>
                 </div>
             </div>
-            <Footer/>
+            <Footer />
         </div>
     )
 

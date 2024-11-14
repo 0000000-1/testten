@@ -10,7 +10,7 @@ const Contactpage = () => {
       </div>
       <div>
         <div className="container mx-auto p-8 pt-16">
-          <h2 className="text-3xl font-bold text-center mb-8">Contact Us</h2>
+          <h2 className="text-4xl font-bold text-center mb-8 border-b pb-6">Contact Us</h2>
 
           <div className="flex flex-wrap justify-center -mx-4">
             <div className="w-full md:w-1/2 xl:w-1/2 px-4 mb-8">
@@ -59,7 +59,7 @@ const Contactpage = () => {
                 Email: info@example.com
               </p>
               <p className="text-lg font-normal text-gray-600 mb-4">
-              Ghariyana, Post office Jakhal,, District – Rudraprayag, Uttrakhand, 246475
+                Ghariyana, Post office Jakhal,, District – Rudraprayag, Uttrakhand, 246475
               </p>
               <div className="flex justify-center mb-4">
                 <a

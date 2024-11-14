@@ -23,10 +23,9 @@ const Details = () => {
         <div className=''>
             <Navbar />
             <div className='m-8 sm:h-full flex flex-col items-center gap-6'>
-                <h2 className='text-3xl text-center mt-6'>PRODUCT DETAIL</h2>
+                <h2 className='text-3xl w-full text-center mt-6 border-b pb-6 '>PRODUCT DETAIL</h2>
                 <div className='flex flex-wrap justify-evenly w-full mt-6'>
-                {/* <div className='grid sm:grid-cols-1 md:grid-cols-2 gap-5 mt-5'> */}
-                    <div className='sm:h-[300px] sm:w-[300px] md:h-[440px] md:w-[440px] lg:h-[600px] lg:w-[600px]'>
+                 <div className='sm:h-[300px] sm:w-[300px] md:h-[440px] md:w-[440px] lg:h-[600px] lg:w-[600px]'>
                         <img src={detail.image}  alt='' className='h-full w-full'/>
                     </div>
                     <div className='flex sm:justify-center sm:flex-col gap-5 sm:h-[300px] sm:w-[300px] md:justify-start md:py-[4rem] md:h-[400px] md:w-[440px] '>

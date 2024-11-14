@@ -4,6 +4,7 @@ import Products from "./pages/Products"
 import Details from "./pages/Details"
 import Contactpage from "./pages/Contactpage"
 import Aboutpage from "./pages/Aboutpage"
+import Policy from "./pages/Policy"
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
           <Route path="/products" element={<Products />} />
           <Route path="/contactpage" element={<Contactpage />} />
           <Route path="/aboutpage" element={<Aboutpage />} />
+          <Route path="/policy" element={<Policy/>}/>
         </Routes>
       </BrowserRouter>
     </>
